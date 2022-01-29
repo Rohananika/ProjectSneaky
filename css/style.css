@@ -1,0 +1,1132 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+/* Header Section Starts From Here */
+
+/* Main Navigation Bar Portion Starts */
+.nav-link {
+    font-size: 14px;
+    color: #2f2d4e !important;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.navbar-nav li {
+    padding-right: 16px;
+}
+
+.nav-item {
+    transition: all ease-in-out .2s;
+}
+
+.nav-item a:hover {
+    color: #fe5c24 !important;
+    transition: all ease-in-out .2s;
+}
+
+.dropdown-item {
+    padding-right: 50px !important;
+    margin-right: 50px !important;
+    padding-bottom: 10px !important;
+    color: #e22104 !important;
+}
+
+.dropdown-item:hover {
+    font-weight: 400;
+    background-color: #e22104 !important;
+    color: #ffffff !important;
+}
+
+/* .dropdown-toggle::after{
+    opacity: 0;
+} */
+.sticky {
+    width: 100%;
+    height: 15vh;
+    line-height: 2.5;
+    position: fixed;
+    background-color: #7676ff;
+    color: #fff !important;
+    z-index: 1000;
+    padding: 10px;
+    margin: 0;
+    top: -16px;
+    left: 0;
+    margin-bottom: 0 !important;
+}
+
+/* Main Navigation Bar Portion Ends */
+
+
+/* Header Section Ends From Here */
+
+
+/* Banner Section Starts From Here */
+
+
+.banner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bannerLeft h1 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #2f2d4e;
+    font-size: 70px;
+    line-height: .9;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-transform: none;
+    padding-top: 130px;
+}
+
+.BookNowbtn {
+    display: inline-block;
+    background-color: #e22104 !important;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    border-radius: 30px !important;
+    padding: 10px 32px !important;
+    text-transform: capitalize;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    box-shadow: none !important;
+    text-decoration: none;
+}
+
+.BookNowbtn:hover {
+    background-color: red !important;
+}
+
+.play {
+    font-size: 24px;
+    padding: 10px 35px;
+}
+
+.bannerVideo {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2f2d4e;
+    text-decoration: none !important;
+    line-height: 42px;
+}
+
+.bannerLeft ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 50px 18px;
+}
+
+.bannerLeft li {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 35px;
+    text-align: center;
+}
+
+.bannerInformation h6 {
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 15px;
+}
+
+.socialIcons {
+    position: absolute;
+    list-style: none;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    top: 30%;
+    left: 0%;
+}
+
+.socialIcons li {
+    padding: 16px 0;
+}
+
+.socialIcons i {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 0px;
+    height: 32px;
+    width: 32px;
+    color: #2f2d4e;
+    background: transparent;
+    text-align: left;
+    padding: 16px 8px;
+}
+
+.socialIcons i:hover {
+    color: #e22104;
+}
+
+
+/* Banner Section Ends From Here*/
+
+
+
+/* about Us SEction Starts From Here */
+
+
+.aboutSection {
+    padding: 130px 0 !important;
+}
+
+.aboutImage {
+    position: relative;
+    z-index: -2;
+}
+
+.anotherImage {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 46%;
+    left: 52%;
+    z-index: 1;
+}
+
+.aboutInformation {
+    padding-left: 56px;
+}
+
+.aboutInformation h4 {
+    display: inline-block;
+    font-size: 24px;
+    color: #e22104;
+    font-family: "Josefin Sans", sans-serif;
+    padding-right: 115px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.aboutInformation h4 span {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #777;
+    top: 50%;
+    right: 0%;
+
+}
+
+.aboutInformation h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #2f2d4e;
+    line-height: 1.2;
+    text-transform: none;
+
+}
+
+.aboutSection p {
+    color: #888 !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: left;
+    text-transform: none;
+    padding-left: 56px;
+}
+
+.learnMorebtn {
+    display: inline-block;
+    background-color: #e22104 !important;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    border-radius: 30px !important;
+    padding: 10px 32px !important;
+    text-transform: capitalize;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    box-shadow: none !important;
+    text-decoration: none;
+    margin-left: 56px;
+}
+
+.learnMorebtn:hover {
+    background-color: red !important;
+}
+
+/* about Us SEction Ends From Here */
+
+/* <!-- Featured Slider Section Starts From Here --> */
+
+
+.featuredSlider {
+    padding: 130px 0;
+}
+
+.FeatureInformation h4 {
+    display: inline-block;
+    font-size: 24px;
+    color: #e22104;
+    font-family: "Josefin Sans", sans-serif;
+    padding-right: 115px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.FeatureInformation h4 span {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #777;
+    top: 50%;
+    right: 0%;
+}
+
+.FeatureInformation h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #2f2d4e;
+    line-height: 1.2;
+    text-transform: none;
+    padding-right: 40px;
+}
+
+.featuredFood h4 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 30px 30px 0px 30px;
+}
+
+.featuredFood a {
+    text-decoration: none;
+}
+
+.featuredFood p {
+    color: #888;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    padding: 0px 30px;
+}
+
+.foodReview li {
+    list-style: none;
+    display: inline-block;
+}
+
+.foodReview {
+    font-size: 11px;
+    color: #ffbe0f;
+    padding-left: 0;
+    margin-bottom: 0;
+    line-height: 32px;
+    padding: 0px 30px;
+}
+
+.featuredFood h3 {
+    font-family: "Open Sans", sans-serif;
+    color: #e22104 !important;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 1.2;
+    padding: 0px 30px;
+}
+
+#owlTwo .owl-nav {
+    font-size: 32px;
+}
+
+#owlTwo .owl-prev {
+    height: 50px;
+    width: 30px;
+    margin: 0px !important;
+}
+
+#owlTwo .owl-next {
+    height: 50px;
+    width: 30px;
+    margin: 0px !important;
+}
+
+#owlTwo .owl-prev:hover {
+    color: #fff8f7;
+    background-color: #999 !important;
+}
+
+#owlTwo .owl-next:hover {
+    color: #fff8f7;
+    background-color: #999 !important;
+}
+
+/* <!-- Featured Slider Section Ends From Here --> */
+
+
+
+/* Offer Section Starts From Here */
+
+.offerSection {
+    padding: 130px 0;
+    position: relative;
+}
+
+.offerImageOverlay {
+    position: absolute;
+    background: #e22104;
+    color: #fff;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    width: 40% !important;
+    height: 60%;
+    top: 30%;
+    left: 41%;
+}
+
+.offerImageOverlay h3 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #ffffff;
+    line-height: 1.2;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.offerImageOverlay h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #ffffff;
+    line-height: 1.2;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.readMorebtn {
+    display: inline-block;
+    background-color: #e22104 !important;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    border-radius: 30px !important;
+    padding: 10px 32px !important;
+    text-transform: capitalize;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    box-shadow: none !important;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+}
+
+.readMorebtn:hover {
+    background-color: red !important;
+}
+
+
+/* Offer Section Ends From Here */
+
+
+
+
+
+
+
+/* <!-- Food Menu Section Starts From Here --> */
+
+
+.foodMenuSection {
+    padding: 130px 0;
+}
+
+.foodMenuTitle h4 {
+    display: inline-block;
+    font-size: 24px;
+    color: #e22104;
+    font-family: "Josefin Sans", sans-serif;
+    padding-right: 115px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.foodMenuTitle h4 span {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #777;
+    top: 50%;
+    right: 0%;
+}
+
+.foodMenuTitle h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #2f2d4e;
+    line-height: 1.2;
+    text-transform: none;
+    padding-right: 40px;
+}
+
+.foodDescription h4 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.foodItems {
+    position: relative;
+    padding: 40px 0;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.foodItems:hover {
+    box-shadow: 0 10px 20px 0 rgb(8 6 89 / 10%);
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.foodDescription {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 32%;
+    left: 25%;
+}
+
+.foodDescription h4 span {
+    position: absolute;
+    height: 1px;
+    width: 150px;
+    background-color: #777;
+    top: 7%;
+    right: 38.5%;
+}
+
+.foodDescription h2 {
+    font-family: "Open Sans", sans-serif;
+    color: #e22104;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    background: #fff;
+    padding-left: 10px;
+    margin-right: 170px;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+
+}
+
+.foodItems p {
+    color: #888;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+/* <!-- Food Menu Section Endss From Here --> */
+
+
+
+
+/* <!-- Reservation Banner Section Starts From Here --> */
+
+
+.reservationBannerSection {
+    padding: 120px 0 130px 0 !important;
+    background-image: url(../img/Reservation.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    background-blend-mode: darken;
+}
+
+.reservationBanner p {
+    font-size: 20px;
+    color: #fff !important;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: center !important;
+}
+
+.reservationBanner h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+/* <!-- Reservation Banner Section Ends From Here --> */
+
+
+
+/* <!-- Our Chef Section Starts From Here --> */
+
+
+.ourChefSection {
+    padding: 130px 0;
+}
+
+.ourChefInformation h4 {
+    display: inline-block;
+    font-size: 24px;
+    color: #e22104;
+    font-family: "Josefin Sans", sans-serif;
+    padding-right: 115px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.ourChefInformation h4 span {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #777;
+    top: 45%;
+    right: 0%;
+}
+
+.ourChefInformation h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #2f2d4e;
+    line-height: 1.2;
+    text-transform: none;
+    padding-right: 40px;
+}
+
+.chefDescription {
+    position: relative;
+}
+
+.chefTitle {
+    position: absolute;
+    width: 90%;
+    bottom: 25px;
+    left: 10px;
+    background: #ffffff;
+    text-align: center;
+    padding: 20px 5px 10px 5px;
+    z-index: 100;
+}
+
+.chefTitle h4 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.chefTitle p {
+    color: #777;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.chefDescription {
+    position: relative;
+}
+
+.socialIcon {
+    list-style: none;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+.socialIcon ul {
+    background: transparent;
+}
+
+.socialIcon li {
+    padding: 16px 0;
+    list-style: none;
+    background: transparent;
+}
+
+.socialIcon i {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 0px;
+    height: 32px;
+    width: 32px;
+    color: #2f2d4e;
+    background: transparent;
+    text-align: left;
+    padding: 16px 8px;
+}
+
+.portfolio::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 94%;
+    height: 100%;
+    background: rgba(2, 1, 15, .5) !important;
+    opacity: 0;
+    z-index: -1;
+    transition: all .6s ease;
+}
+
+.portfolio::after:hover {
+    background: rgba(2, 1, 15, .9);
+    opacity: 1;
+    transition: all .6s ease;
+}
+
+.chefOverlay {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+}
+
+.portfolio:hover .chefOverlay {
+    opacity: 1;
+    z-index: 1;
+    transition: all 0.7s ease-in-out;
+}
+
+
+
+
+
+
+/* <!-- Our Chef Section Ends From Here --> */
+
+
+
+/* <!-- Reservation Section Starts From Here --> */
+
+
+.reservationSection {
+    padding: 130px;
+    background: #fff8f7;
+}
+
+.reservationDescription h4 {
+    display: inline-block;
+    font-size: 24px;
+    color: #e22104;
+    font-family: "Josefin Sans", sans-serif;
+    padding-right: 115px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.reservationDescription h4 span {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #777;
+    top: 50%;
+    right: 0%;
+}
+
+.reservationDescription h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #2f2d4e;
+    line-height: 1.2;
+    text-transform: none;
+    padding-right: 40px;
+}
+
+.reservationSection p {
+    color: #888 !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: left;
+    text-transform: none;
+}
+
+.reservationFormSection {
+    padding: 30px 10px;
+    position: relative;
+}
+
+.reservationOverlay {
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    top: 20%;
+    left: 8%;
+}
+
+.reservationOverlay h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.2;
+}
+
+.formSection {
+    position: relative;
+}
+
+.formIcon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 20%;
+    left: 90%;
+}
+
+.formInput {
+    font-size: 14px;
+    color: #999;
+    border: none !important;
+    height: 50px !important;
+    border-radius: 0 !important;
+}
+
+.formInput input {
+    background-color: #fff;
+    color: #999;
+    padding: 6px 12px !important;
+    border: none;
+    border-radius: none;
+    box-shadow: none !important;
+}
+
+.reservationBtn {
+    margin-top: 55px;
+    display: inline-block;
+    background-color: #e22104 !important;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px !important;
+    padding: 9px 25px !important;
+    text-transform: capitalize;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    box-shadow: none !important;
+}
+
+.reservationBtn:hover {
+    background-color: red !important;
+}
+
+/* <!-- Reservation Section Ends From Here --> */
+
+
+
+/* <!-- Our Blog Section Starts From Here --> */
+
+
+
+.ourBlogSection {
+    padding: 80px 0px !important;
+}
+
+.ourBlogSectionTitle h4 {
+    display: inline-block;
+    font-size: 24px;
+    color: #e22104;
+    font-family: "Josefin Sans", sans-serif;
+    padding-right: 115px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.ourBlogSectionTitle h4 span {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #777;
+    top: 50%;
+    right: 0%;
+}
+
+.ourBlogSectionTitle h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #2f2d4e;
+    line-height: 1.2;
+    text-transform: none;
+    padding-right: 40px;
+}
+
+.blogLista {
+    padding: 30px;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.blogLista:hover {
+    box-shadow: 0 10px 20px 0 rgb(8 6 89 / 10%);
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.blogList h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.blogList p {
+    color: #a2a2a2;
+    line-height: 28px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.blogList p a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+
+/* <!-- \Our Blog Section Ends From Here --> */
+
+
+/*  <!-- Footer Section Starts Here --> */
+
+.footerArea {
+    background-color: #fff8f7;
+    padding: 120px 0px 0px;
+    position: relative;
+}
+
+.footerDescription h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    color: #2f2d4e;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.footerDescription p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #7b838a;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.footerDescription ul li {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    color: #777777;
+    font-size: 15px;
+    margin-bottom: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.footerDescription ul li a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #777777;
+}
+
+.footerDescription ul li a:hover {
+    color: #e22104;
+    transition: all ease-in-out 0.3s;
+}
+
+.footerForm {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0;
+    width: 100% !important;
+    height: 50px !important;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: none;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.footerForm input {
+    height: 34px;
+    border: 1px solid #eee;
+    width: 100% !important;
+    font-weight: 400;
+    background: transparent;
+    color: #777;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 16px;
+    padding-right: 100px !important;
+}
+
+.footerForm input:focus::placeholder {
+    opacity: 0;
+}
+
+.footerForm input::placeholder {
+    background-color: #495057;
+    background: transparent;
+    font-size: 15px;
+}
+
+.submitBtn {
+    border-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 18px;
+    border: 0;
+    background: #e22104;
+    color: #fff;
+    position: relative;
+    right: -0;
+    top: 0;
+    text-transform: capitalize;
+}
+
+.copyrightText {
+    padding: 60px 0 80px !important;
+    background: #fff8f7;
+}
+
+.footerText {
+    color: #777;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footerText a {
+    text-decoration: none;
+    color: #e22104 !important;
+}
+
+.footerText i {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #777;
+    text-align: left;
+    padding: 0px 2px;
+    cursor: pointer;
+}
+
+.footerIcon i {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0px;
+    height: 32px;
+    width: 32px;
+    color: #fff;
+    background: #2f2d4e;
+    text-align: left;
+    padding: 16px 8px;
+}
+
+.footerIcon i:hover {
+    background: #e22104;
+    transition: all ease-in-out 0.5s;
+}
+
+
+
+/* <!-- Footer Section Ends Here --> */
+
+
+/* About Us Section Strats From Here */
+
+
+.aboutUs h1 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #2f2d4e;
+    font-size: 60px;
+    line-height: .9;
+    font-weight: 600;
+    margin-bottom: 15px !important;
+    text-transform: none;
+    padding-top: 130px;
+}
+
+.aboutUs p {
+    color: #888;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
